@@ -30,6 +30,25 @@ public class TipoVariable {
 		int variable1Entero = (int) variable1;
 		System.out.println(variable1Entero);
 		//omite el .58
+		
+		long prueba =122222222222L;
+		//nos avisa que es un numero largo 
+		//tipo de datos que soportan numeros gigantes
+		
+		short numeroPequeno = 13444;
+		//soporta numeros pequenos 2-16
+		byte numeroMasPequeno = 2;
+		//admite numeros de 8bits
+		float numeroDecimalPequeno = 2.5F;
+		//decimal pequeno
+		System.out.println(numeroPequeno);
+		
+		//Probando
+		int edad1= 30;
+		System.out.println("La edad de marcos es " + edad1 + "!");
+		
+		double edad2=30.0;
+		System.out.println("La edad de Marcos es " + edad2 + "!" );
 	}
 
 }
