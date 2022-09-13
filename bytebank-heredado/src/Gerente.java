@@ -1,32 +1,11 @@
 
-public class Gerente {
+public class Gerente extends Funcionario {
 	
-	
-	private String nombre;
-	private String documento;
-	private double salario;
-	
-	
-	public String getNombre() {
-		return nombre;
+	private String clave;
+	public void setClave (String clave) {
+		this.clave = clave;
 	}
-	public void setNombre(String nombre) {
-		this.nombre = nombre;
-	}
-	public String getDocumento() {
-		return documento;
-	}
-	public void setDocumento(String documento) {
-		this.documento = documento;
-	}
-	public double getSalario() {
-		return salario;
-	}
-	public void setSalario(double salario) {
-		this.salario = salario;
-	}
-	
-	public double getBoinificacion () {
-		return this.salario;
+	public boolean iniciarSesion(String clave) {
+		return clave == "AluraCursos";
 	}
 }
